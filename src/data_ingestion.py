@@ -50,6 +50,7 @@ class DataIngestion:
         try:
             train_df , test_df = train_test_split(df ,test_size=0.2 , random_state=42)
             train_df.to_csv(TRAIN_PATH,index=False)
+            
             test_df.to_csv(TEST_PATH , index=False)
 
             logger.info("Data Splitting and saving done")

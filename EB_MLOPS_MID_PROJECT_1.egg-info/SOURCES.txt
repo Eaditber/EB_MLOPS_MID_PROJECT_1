@@ -5,7 +5,10 @@ EB_MLOPS_MID_PROJECT_1.egg-info/dependency_links.txt
 EB_MLOPS_MID_PROJECT_1.egg-info/requires.txt
 EB_MLOPS_MID_PROJECT_1.egg-info/top_level.txt
 config/__init__.py
+config/database_config.py
+config/paths_config.py
 pipline/__init__.py
 src/__init__.py
 src/custom_exception.py
+src/data_ingestion.py
 src/logger.py
