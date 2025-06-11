@@ -9,6 +9,10 @@ import pandas as pd
 import sqlalchemy
 from airflow.timetables.interval import Timetable  # You might need this import if using complex schedules
 from datetime import timedelta
+import pendulum
+from airflow.utils.dates import days_ago
+from pendulum import timezone
+
 
 #### TRANSFORM STEP....
 def load_to_sql(file_path):
@@ -21,9 +25,12 @@ def load_to_sql(file_path):
 # Define the DAG
 with DAG(
     dag_id="extract_customers_data",
-    schedule=timedelta(days=1), # Changed 'schedule_interval' to 'schedule'
-    start_date=datetime(2023, 1, 1),
+    #schedule=timedelta(days=1), # Changed 'schedule_interval' to 'schedule'
+    #start_date=pendulum.datetime(2025, 1, 1, tz="UTC"),
+    start_date=pendulum.datetime(2023, 1, 1, 0, 0, 0, tz="Asia/Jerusalem"), # 12:00 AM Israel time on Jan 1, 2023
+    schedule="0 12 * * *", # CRON expression for 12:00 PM daily
     catchup=False,
+    timezone="Asia/Jerusalem"  # Set timezone to Israel
 ) as dag:
 
     # Extract STEP...
