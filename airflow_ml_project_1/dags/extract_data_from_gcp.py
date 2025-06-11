@@ -39,15 +39,15 @@ with DAG(
     download_file = GCSToLocalFilesystemOperator(
         task_id="download_file",
         bucket="eb_mlops_bucket", 
-        object_name="database_input.csv", 
-        filename="/tmp/database_input.csv", 
+        object_name="original_dataset.csv", 
+        filename="/tmp/original_dataset.csv", 
     )
     
     ### TRANSFORM AND LOAD....
     load_data = PythonOperator(
         task_id="load_to_sql",
         python_callable=load_to_sql,
-        op_kwargs={"file_path": "/tmp/database_input.csv"}
+        op_kwargs={"file_path": "/tmp/original_dataset.csv"}
     )
 #DAGGGGG
     list_files >> download_file >> load_data

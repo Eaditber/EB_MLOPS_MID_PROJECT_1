@@ -9,3 +9,5 @@ mlflow
 flask
 setuptools
 psycopg2
+seaborn
+redis

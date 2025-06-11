@@ -13,5 +13,7 @@ Requires-Dist: mlflow
 Requires-Dist: flask
 Requires-Dist: setuptools
 Requires-Dist: psycopg2
+Requires-Dist: seaborn
+Requires-Dist: redis
 Dynamic: author
 Dynamic: requires-dist
