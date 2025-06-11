@@ -45,6 +45,7 @@ class DataProcessing:
             self.data['TotalCharges'] = self.data['TotalCharges'].str.replace(' ','2279') # remove space string in data
             self.data['TotalCharges'] = self.data['TotalCharges'].astype(float)
             self.data['PhoneService'].fillna('No')
+            self.data['tenure'] = self.data['tenure'].fillna(self.data['tenure'].mean())
             self.data['Contract'] = self.data['Contract'].dropna()
             self.data['PhoneService'] = self.data['PhoneService'].map({'Yes':1,'No':0})
             self.data =self.data.join(pd.get_dummies(self.data['Contract']).astype(int))

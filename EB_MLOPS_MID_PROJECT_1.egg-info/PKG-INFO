@@ -10,10 +10,12 @@ Requires-Dist: pyyaml
 Requires-Dist: imbalanced-learn
 Requires-Dist: lightgbm
 Requires-Dist: mlflow
-Requires-Dist: flask
 Requires-Dist: setuptools
 Requires-Dist: psycopg2
 Requires-Dist: seaborn
 Requires-Dist: redis
+Requires-Dist: flask
+Requires-Dist: prometheus-client
+Requires-Dist: joblib
 Dynamic: author
 Dynamic: requires-dist

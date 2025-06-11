@@ -88,3 +88,66 @@
 2025-06-11 15:54:33,063 - INFO - Accuracy is 0.7724444444444445
 2025-06-11 15:54:33,120 - INFO - Model saved at artifacts/models/random_forest_model.pkl
 2025-06-11 15:54:33,122 - INFO - End of Model Training pipeline...
+2025-06-11 16:01:38,252 - INFO - Data Ingestion Pipleine Started..../
+2025-06-11 16:01:38,338 - INFO - Database connection established...
+2025-06-11 16:01:39,797 - INFO - Data extracted from DB
+2025-06-11 16:01:40,078 - INFO - Data Splitting and saving done
+2025-06-11 16:01:40,082 - INFO - End of Data Ingestion Pipline..
+2025-06-11 16:01:40,093 - INFO - Your Data Processing is intialized...
+2025-06-11 16:01:40,093 - INFO - Starting our Data Processing Pipleine...
+2025-06-11 16:01:40,193 - INFO - Read the data sucesfully
+2025-06-11 16:01:40,232 - INFO - Data Preprocessing done...
+2025-06-11 16:01:40,269 - INFO - Hanled imbalance data sucesfully...
+2025-06-11 16:01:54,068 - INFO - Data has been feeded into Feature Store..
+2025-06-11 16:01:54,070 - INFO - End of pipeline Data Processing...
+2025-06-11 16:01:54,072 - INFO - Model Training initialized...
+2025-06-11 16:01:54,072 - INFO - Starting Model Training Pipleine....
+2025-06-11 16:01:54,202 - INFO - Extracting data from Redis
+2025-06-11 16:02:02,816 - INFO - Extracting data from Redis
+2025-06-11 16:02:04,967 - INFO - Index(['TotalCharges', 'Month-to-month', 'One year', 'Two year',
+       'PhoneService', 'tenure', 'Churn'],
+      dtype='object')
+2025-06-11 16:02:04,974 - INFO - Index(['TotalCharges', 'Month-to-month', 'One year', 'Two year',
+       'PhoneService', 'tenure'],
+      dtype='object')
+2025-06-11 16:02:04,977 - INFO - Preparation for Model Training completed
+2025-06-11 16:03:06,546 - INFO - Best paramters : {'n_estimators': 300, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_depth': 10}
+2025-06-11 16:03:06,625 - INFO - Accuracy is 0.7724444444444445
+2025-06-11 16:03:06,742 - INFO - Model saved at artifacts/models/random_forest_model.pkl
+2025-06-11 16:03:06,743 - INFO - End of Model Training pipeline...
+2025-06-11 21:31:24,116 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-06-11 21:31:24,117 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-11 21:31:24,124 - INFO -  * Restarting with stat
+2025-06-11 21:31:31,053 - WARNING -  * Debugger is active!
+2025-06-11 21:31:31,059 - INFO -  * Debugger PIN: 810-442-478
+2025-06-11 21:37:33,604 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-06-11 21:37:33,605 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-11 21:37:33,609 - INFO -  * Restarting with stat
+2025-06-11 21:37:37,772 - WARNING -  * Debugger is active!
+2025-06-11 21:37:37,778 - INFO -  * Debugger PIN: 810-442-478
+2025-06-11 21:38:40,589 - INFO -  * Detected change in 'C:\\Users\\eaditb\\Documents\\EB_MLOPS_MID_PROJECT_1\\venv\\application.py', reloading
+2025-06-11 21:38:41,022 - INFO -  * Restarting with stat
+2025-06-11 21:38:45,109 - WARNING -  * Debugger is active!
+2025-06-11 21:38:45,114 - INFO -  * Debugger PIN: 810-442-478
+2025-06-11 21:41:08,892 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-06-11 21:41:08,894 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-11 21:41:08,900 - INFO -  * Restarting with stat
+2025-06-11 21:41:31,612 - WARNING -  * Debugger is active!
+2025-06-11 21:41:31,658 - INFO -  * Debugger PIN: 810-442-478
+2025-06-11 23:11:39,139 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-06-11 23:11:39,140 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-11 23:11:39,144 - INFO -  * Restarting with stat
+2025-06-11 23:11:42,412 - WARNING -  * Debugger is active!
+2025-06-11 23:11:42,416 - INFO -  * Debugger PIN: 810-442-478

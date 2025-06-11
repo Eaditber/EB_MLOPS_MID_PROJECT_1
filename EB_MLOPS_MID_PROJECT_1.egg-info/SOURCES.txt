@@ -8,7 +8,11 @@ config/__init__.py
 config/database_config.py
 config/paths_config.py
 pipline/__init__.py
+pipline/training_pipeline.py
 src/__init__.py
 src/custom_exception.py
 src/data_ingestion.py
+src/data_processing.py
+src/feature_store.py
 src/logger.py
+src/model_training.py

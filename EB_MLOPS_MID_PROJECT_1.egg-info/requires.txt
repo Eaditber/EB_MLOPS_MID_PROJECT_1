@@ -6,8 +6,10 @@ pyyaml
 imbalanced-learn
 lightgbm
 mlflow
-flask
 setuptools
 psycopg2
 seaborn
 redis
+flask
+prometheus-client
+joblib

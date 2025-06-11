@@ -1,0 +1,28 @@
+### Test valid prediction
+POST http://localhost:5000/
+Content-Type: application/json
+
+{
+  "TotalCharges": 1234.5,
+  "Month-to-month": "No",
+  "One year": "Yes",
+  "Two year": "No",
+  "PhoneService": "Yes",
+  "tenure": 18
+}
+
+### Test invalid contract (too many 'Yes')
+POST http://localhost:5000/
+Content-Type: application/json
+
+{
+  "TotalCharges": 500.0,
+  "Month-to-month": "Yes",
+  "One year": "Yes",
+  "Two year": "No",
+  "PhoneService": "No",
+  "tenure": 5
+}
+
+### Test health check
+GET http://localhost:5000/

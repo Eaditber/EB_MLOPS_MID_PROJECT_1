@@ -1,13 +1,16 @@
-pandas 
-numpy
+pandas #==2.0.3 
+numpy  #==1.26.4
 google-cloud-storage
-scikit-learn
+scikit-learn #==1.2.2
 pyyaml
 imbalanced-learn
 lightgbm
 mlflow
-flask
 setuptools
 psycopg2
 seaborn
 redis
+flask #==2.3.2
+prometheus-client #==0.18.0
+#alibi-detect
+joblib
