@@ -1,0 +1,24 @@
+
+
+# prometheus.yml
+global:
+  scrape_interval: 15s # How frequently to scrape targets
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'redis' # Define a job to scrape Redis Exporter
+    static_configs:
+      - targets: ['redis-exporter:9121'] # Use the service name 'redis-exporter' and its exposed port
+
+
+
+
+
+
+
+
+
+

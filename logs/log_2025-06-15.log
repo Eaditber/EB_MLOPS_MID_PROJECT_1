@@ -1,0 +1,88 @@
+2025-06-15 15:44:12,943 - INFO - Model loaded successfully from artifacts/models/random_forest_model.pkl
+2025-06-15 15:44:13,017 - ERROR - Failed to load reference data for drift detection: 'Month-to-month'
+Traceback (most recent call last):
+  File "C:\Users\eaditb\Documents\EB_MLOPS_MID_PROJECT_1\venv\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Month-to-month'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\eaditb\Documents\EB_MLOPS_MID_PROJECT_1\monitoring\data_drift.py", line 38, in <module>
+    reference_data_df['Month-to-month'] = reference_data_df['Month-to-month'].map({'Yes': 1, 'No': 0})
+                                          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eaditb\Documents\EB_MLOPS_MID_PROJECT_1\venv\Lib\site-packages\pandas\core\frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\eaditb\Documents\EB_MLOPS_MID_PROJECT_1\venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Month-to-month'
+2025-06-15 15:44:13,041 - INFO - Prometheus metrics server started on port 8000
+2025-06-15 15:44:17,688 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-06-15 15:44:17,688 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 15:44:17,691 - INFO -  * Restarting with stat
+2025-06-15 15:44:22,235 - INFO - Model loaded successfully from artifacts/models/random_forest_model.pkl
+2025-06-15 15:44:22,310 - ERROR - Failed to load reference data for drift detection: 'Month-to-month'
+Traceback (most recent call last):
+  File "C:\Users\eaditb\Documents\EB_MLOPS_MID_PROJECT_1\venv\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Month-to-month'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\eaditb\Documents\EB_MLOPS_MID_PROJECT_1\monitoring\data_drift.py", line 38, in <module>
+    reference_data_df['Month-to-month'] = reference_data_df['Month-to-month'].map({'Yes': 1, 'No': 0})
+                                          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eaditb\Documents\EB_MLOPS_MID_PROJECT_1\venv\Lib\site-packages\pandas\core\frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\eaditb\Documents\EB_MLOPS_MID_PROJECT_1\venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Month-to-month'
+2025-06-15 15:44:22,334 - INFO - Prometheus metrics server started on port 8000
+2025-06-15 15:44:22,372 - WARNING -  * Debugger is active!
+2025-06-15 15:44:22,385 - INFO -  * Debugger PIN: 810-442-478
+2025-06-15 15:47:04,374 - INFO - Data Ingestion Pipleine Started..../
+2025-06-15 15:47:04,422 - INFO - Database connection established...
+2025-06-15 15:47:05,299 - INFO - Data extracted from DB
+2025-06-15 15:47:05,512 - INFO - Data Splitting and saving done
+2025-06-15 15:47:05,515 - INFO - End of Data Ingestion Pipline..
+2025-06-15 15:48:18,390 - INFO - Your Data Processing is intialized...
+2025-06-15 15:48:18,390 - INFO - Starting our Data Processing Pipleine...
+2025-06-15 15:48:18,455 - INFO - Read the data sucesfully
+2025-06-15 15:48:18,497 - INFO - Data Preprocessing done...
+2025-06-15 15:48:18,527 - INFO - Hanled imbalance data sucesfully...
+2025-06-15 15:48:23,169 - ERROR - Error while feature storing data Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-06-15 15:48:23,169 - ERROR - Error while Data Processing Pipleine CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-06-15 17:10:40,573 - INFO - Data Ingestion Pipleine Started..../
+2025-06-15 17:10:40,624 - INFO - Database connection established...
+2025-06-15 17:10:41,461 - ERROR - Error while extracting data Execution failed on sql 'SELECT * FROM public.fact_customers_data_for_train': relation "public.fact_customers_data_for_train" does not exist
+LINE 1: SELECT * FROM public.fact_customers_data_for_train
+                      ^
+
+2025-06-15 17:10:41,461 - ERROR - Error while Data Ingestion Piplleine Error in C:\Users\eaditb\Documents\EB_MLOPS_MID_PROJECT_1\src\data_ingestion1.py , line 41 : Execution failed on sql 'SELECT * FROM public.fact_customers_data_for_train': relation "public.fact_customers_data_for_train" does not exist
+LINE 1: SELECT * FROM public.fact_customers_data_for_train
+                      ^
+
+2025-06-15 17:11:24,869 - INFO - Data Ingestion Pipleine Started..../
+2025-06-15 17:11:24,911 - INFO - Database connection established...
+2025-06-15 17:11:25,396 - INFO - Data extracted from DB
+2025-06-15 17:11:25,571 - INFO - Data Splitting and saving done
+2025-06-15 17:11:25,573 - INFO - End of Data Ingestion Pipline..
+2025-06-15 17:27:48,663 - INFO - Data Ingestion Pipleine Started..../
+2025-06-15 17:27:48,715 - INFO - Database connection established...
+2025-06-15 17:27:49,777 - INFO - Data extracted from DB
+2025-06-15 17:27:50,042 - INFO - Data Splitting and saving done
+2025-06-15 17:27:50,044 - INFO - End of Data Ingestion Pipline..

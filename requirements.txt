@@ -12,5 +12,7 @@ seaborn
 redis
 flask #==2.3.2
 prometheus-client #==0.18.0
-#alibi-detect
+#alibi-detect #not working
 joblib
+prometheus_client
+mlflow

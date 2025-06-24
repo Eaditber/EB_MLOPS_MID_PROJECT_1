@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Customer Churn Prediction</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Churn Prediction</h1>
+        <form action="/" method="POST" class="prediction-form">
+            <div class="form-group">
+                <label for="TotalCharges">Total Charges:</label>
+                <input type="number" step="0.01" id="TotalCharges" name="TotalCharges" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Month-to-month">Month-to-month Contract:</label>
+                <select id="Month-to-month" name="Month-to-month" required>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="One year">One Year Contract:</label>
+                <select id="One year" name="One year" required>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Two year">Two Year Contract:</label>
+                <select id="Two year" name="Two year" required>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="PhoneService">Phone Service:</label>
+                <select id="PhoneService" name="PhoneService" required>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="tenure">Tenure (months):</label>
+                <input type="number" id="tenure" name="tenure" required>
+            </div>
+
+            <button type="submit" class="btn">Predict</button>
+        </form> <div class="prediction-result">
+            <h3>Prediction Result</h3>
+            {% if prediction_text %}
+            <p>{{ prediction_text }}</p>
+            {% else %}
+            <p>No predictions yet made...</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

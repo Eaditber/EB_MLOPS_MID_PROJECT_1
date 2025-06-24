@@ -117,7 +117,7 @@ if __name__=="__main__":
 
     data_processor = DataProcessing(TRAIN_PATH,TEST_PATH,feature_store)
     data_processor.run()
-
+####for check running
     print(data_processor.retrive_feature_redis_store(entity_id='3668-QPYBK'))
         
 

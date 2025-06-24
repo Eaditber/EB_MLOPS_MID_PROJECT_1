@@ -17,5 +17,7 @@ Requires-Dist: redis
 Requires-Dist: flask
 Requires-Dist: prometheus-client
 Requires-Dist: joblib
+Requires-Dist: prometheus_client
+Requires-Dist: mlflow
 Dynamic: author
 Dynamic: requires-dist

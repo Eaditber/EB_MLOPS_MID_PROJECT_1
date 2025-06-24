@@ -13,3 +13,5 @@ redis
 flask
 prometheus-client
 joblib
+prometheus_client
+mlflow
