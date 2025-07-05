@@ -18,7 +18,8 @@ def load_to_sql(file_path):
     engine = sqlalchemy.create_engine(f"postgresql+psycopg2://{conn.login}:{conn.password}@docker_ml_project_1-postgres-1:{conn.port}/{conn.schema}")
 
     df = pd.read_csv(file_path)
-    df.to_sql(name="fact_customers_data", con=engine, if_exists="replace", index=False) # name="customers_data" table name
+    df['insert_date'] = datetime.now()
+    df.to_sql(name="fact_customers_data_daily", con=engine, if_exists="replace", index=False) # name="customers_data" table name
 
 # Define the DAG
 with DAG(
