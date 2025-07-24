@@ -1,0 +1,3 @@
+{"timestamp":"2025-07-23T18:45:05.758186","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-23T18:45:05.850719","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/extract_data_from_gcp_load_preprocessing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-23T18:45:16.194104","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}

@@ -19,10 +19,17 @@ def load_to_and_preprocessing(file_path, tab_name_raw, tab_name_processed):
     engine = sqlalchemy.create_engine(f"postgresql+psycopg2://{conn.login}:{conn.password}@docker_ml_project_1-postgres-1:{conn.port}/{conn.schema}")
     df = pd.read_csv(file_path)
     df['insert_date'] = datetime.now()
-    df.to_sql(name=tab_name_raw, con=engine, if_exists="replace", index=False) # name="customers_data" table name
-    data_processor = DataProcessing(df)
+    
+    df.to_sql(name=tab_name_raw, con=engine, if_exists="append", index=False) # name="customers_data" table name
+    # Get mean of a column from the processed table
+    with engine.connect() as conn_sql:
+        df_db = pd.read_sql(f"SELECT avg(tenure) as avg_tenure FROM {tab_name_processed}", conn_sql)
+    mean_tenure = df_db['avg_tenure'][0] #
+    data_processor = DataProcessing(df,  mean_tenure)  # Pass mean_tenure to DataProcessing
     df_processed = data_processor.preprocess_data()
-    df_processed.to_sql(name=tab_name_processed, con=engine, if_exists="replace", index=False)
+    df_processed.to_sql(name=tab_name_processed, con=engine, if_exists="append", index=False)
+
+    
 # Define the DAG
 with DAG(
     dag_id="extract_customers_data_preprocessing",

@@ -9,8 +9,9 @@ logger = get_logger(__name__)
 
 
 class DataProcessing:
-    def __init__(self, df): #, feature_store : RedisFeatureStore):
+    def __init__(self, df, mean_tenure=None): #, feature_store : RedisFeatureStore):
         self.data=df
+        self.mean_tenure = mean_tenure
         #self.feature_store = feature_store
         logger.info("Your Data Processing is intialized...")
    
@@ -24,7 +25,10 @@ class DataProcessing:
             self.data['TotalCharges'] = self.data['TotalCharges'].str.replace(' ','2279') # remove space string in data
             self.data['TotalCharges'] = self.data['TotalCharges'].astype(float)
             self.data['PhoneService'].fillna('No')
-            self.data['tenure'] = self.data['tenure'].fillna(self.data['tenure'].mean())
+            if self.mean_tenure is not None:
+                self.data['tenure'] = self.data['tenure'].fillna(self.mean_tenure)  # Use provided mean_tenure if available
+            else:
+                self.data['tenure'] = self.data['tenure'].fillna(self.data['tenure'].mean())  # Fallback to mean of the column
             self.data['Contract'] = self.data['Contract'].dropna()
             self.data['PhoneService'] = self.data['PhoneService'].map({'Yes':1,'No':0})
             df_processed = self.data.join(pd.get_dummies(self.data['Contract']).astype(int))

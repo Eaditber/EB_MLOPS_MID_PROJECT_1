@@ -1,0 +1,7 @@
+{"timestamp":"2025-07-23T16:09:29.232091","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-23T16:09:29.234753","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/extract_data_from_gcp_load_preprocessing.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-23T16:09:30.713255","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-07-23T16:09:30.775776","level":"info","event":"Connection Retrieved 'postgres_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-23T16:09:47.773629","level":"info","event":"Your Data Processing is intialized...","logger":"myml.data_processing"}
+{"timestamp":"2025-07-23T16:09:47.885127","level":"info","event":"Data Preprocessing done...","logger":"myml.data_processing"}
+{"timestamp":"2025-07-23T16:09:52.247995","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
