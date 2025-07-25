@@ -1,2 +1,6 @@
 {"timestamp":"2025-07-24T12:10:29.120371","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
 {"timestamp":"2025-07-24T12:10:29.122182","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/extract_data_from_gcp_load_preprocessing - Copy.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-24T12:10:37.767830","level":"info","event":"Executing download: eb_mlops_bucket, original_dataset.csv, /tmp/original_dataset.csv","logger":"airflow.task.operators.airflow.providers.google.cloud.transfers.gcs_to_local.GCSToLocalFilesystemOperator"}
+{"timestamp":"2025-07-24T12:10:37.772573","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-07-24T12:10:37.839217","level":"info","event":"Connection Retrieved 'google_cloud_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-24T12:10:40.639575","level":"info","event":"File downloaded to /tmp/original_dataset.csv","logger":"airflow.task.hooks.airflow.providers.google.cloud.hooks.gcs.GCSHook"}
