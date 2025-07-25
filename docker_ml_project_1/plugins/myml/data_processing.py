@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 # from src.feature_store import RedisFeatureStore
-from myml.logger import get_logger
+from logger import get_logger
 # from src.custom_exception import CustomException
 #from config.paths_config import *
 
@@ -10,8 +10,24 @@ logger = get_logger(__name__)
 
 class DataProcessing:
     def __init__(self, df, mean_tenure=None): #, feature_store : RedisFeatureStore):
-        self.data=df
-        self.mean_tenure = mean_tenure
+        self.data = df
+        if mean_tenure is None:
+            import json
+            import os
+            json_path = os.path.join(os.path.dirname(__file__), 'mean_tenure.json')
+        
+            try:
+                #with open('plugins/myml/mean_tenure.json', 'r') as f:
+                with open(json_path, 'r') as f:
+                    self.mean_tenure = json.load(f).get('mean_tenure', None)
+                logger.info("mean_tenure loaded from JSON file.")
+                print("mean_tenure loaded from JSON file.")
+            except Exception as e:
+                logger.error(f"Could not load mean_tenure from JSON: {e}")
+                print(f"Could not load mean_tenure from JSON: {e}")
+                self.mean_tenure = None
+        else:
+            self.mean_tenure = mean_tenure
         #self.feature_store = feature_store
         logger.info("Your Data Processing is intialized...")
    

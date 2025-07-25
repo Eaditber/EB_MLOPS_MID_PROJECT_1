@@ -33,6 +33,10 @@ def load_to_preprocessing_classification(file_path, tab_name_raw, tab_name_proce
             mean_tenure = df_db['avg_tenure'][0]
         except Exception as e:
             mean_tenure = df['tenure'].mean()
+        # Save mean_tenure to JSON file
+        import json
+        with open('plugins/myml/mean_tenure.json', 'w') as f:
+            json.dump({'mean_tenure': mean_tenure}, f)
         data_processor = DataProcessing(df, mean_tenure)  # Pass mean_tenure to DataProcessing
         df_processed = data_processor.preprocess_data()
         # --- Model Loading (Add error handling for robustness) ---

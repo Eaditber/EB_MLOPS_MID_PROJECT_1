@@ -1,0 +1,239 @@
+2025-07-25 13:50:57,769 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-07-25 13:50:57,770 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 13:50:57,775 - INFO -  * Restarting with stat
+2025-07-25 13:51:05,119 - WARNING -  * Debugger is active!
+2025-07-25 13:51:05,145 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 13:52:06,410 - INFO -  * Detected change in 'C:\\Users\\eaditb\\Documents\\EB_MLOPS_MID_PROJECT_1\\docker_ml_project_1\\plugins\\myml\\application_w_prep.py', reloading
+2025-07-25 13:52:07,069 - INFO -  * Restarting with stat
+2025-07-25 13:52:25,998 - WARNING -  * Debugger is active!
+2025-07-25 13:52:26,010 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 13:54:44,158 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-07-25 13:54:44,198 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 13:54:44,240 - INFO -  * Restarting with stat
+2025-07-25 13:55:06,614 - WARNING -  * Debugger is active!
+2025-07-25 13:55:06,632 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 13:59:29,193 - INFO - 127.0.0.1 - - [25/Jul/2025 13:59:29] "GET / HTTP/1.1" 200 -
+2025-07-25 13:59:29,640 - INFO - 127.0.0.1 - - [25/Jul/2025 13:59:29] "GET /static/style.css HTTP/1.1" 200 -
+2025-07-25 13:59:29,846 - INFO - 127.0.0.1 - - [25/Jul/2025 13:59:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-25 14:01:39,497 - ERROR - Could not load mean_tenure from JSON: [Errno 2] No such file or directory: 'plugins/myml/mean_tenure.json'
+2025-07-25 14:01:39,498 - INFO - Your Data Processing is intialized...
+2025-07-25 14:01:39,538 - ERROR - Could not load mean_tenure from JSON: [Errno 2] No such file or directory: 'plugins/myml/mean_tenure.json'
+2025-07-25 14:01:39,539 - INFO - Your Data Processing is intialized...
+2025-07-25 14:01:39,560 - ERROR - Error while preprocessing data 'ImmutableMultiDict' objects are immutable
+2025-07-25 14:01:39,561 - ERROR - Error while preprocessing data 'ImmutableMultiDict' objects are immutable
+2025-07-25 14:01:39,572 - INFO - 127.0.0.1 - - [25/Jul/2025 14:01:39] "POST / HTTP/1.1" 200 -
+2025-07-25 14:01:39,576 - INFO - 127.0.0.1 - - [25/Jul/2025 14:01:39] "POST / HTTP/1.1" 200 -
+2025-07-25 14:01:39,687 - INFO - 127.0.0.1 - - [25/Jul/2025 14:01:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:07:28,368 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-07-25 14:07:28,370 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:07:28,378 - INFO -  * Restarting with stat
+2025-07-25 14:07:40,622 - WARNING -  * Debugger is active!
+2025-07-25 14:07:40,634 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 14:09:23,986 - INFO - 127.0.0.1 - - [25/Jul/2025 14:09:23] "GET / HTTP/1.1" 200 -
+2025-07-25 14:09:24,563 - INFO - 127.0.0.1 - - [25/Jul/2025 14:09:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:09:34,142 - ERROR - Could not load mean_tenure from JSON: [Errno 2] No such file or directory: 'plugins/myml/mean_tenure.json'
+2025-07-25 14:09:34,143 - INFO - Your Data Processing is intialized...
+2025-07-25 14:09:34,635 - ERROR - Error while preprocessing data 'ImmutableMultiDict' objects are immutable
+2025-07-25 14:09:34,640 - INFO - 127.0.0.1 - - [25/Jul/2025 14:09:34] "POST / HTTP/1.1" 200 -
+2025-07-25 14:09:34,676 - INFO - 127.0.0.1 - - [25/Jul/2025 14:09:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:10:19,417 - INFO -  * Detected change in 'C:\\Users\\eaditb\\Documents\\EB_MLOPS_MID_PROJECT_1\\docker_ml_project_1\\plugins\\myml\\application_w_prep.py', reloading
+2025-07-25 14:11:22,339 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-07-25 14:11:22,341 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:11:22,348 - INFO -  * Restarting with stat
+2025-07-25 14:11:31,025 - WARNING -  * Debugger is active!
+2025-07-25 14:11:31,037 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 14:11:31,394 - INFO - 127.0.0.1 - - [25/Jul/2025 14:11:31] "GET / HTTP/1.1" 200 -
+2025-07-25 14:11:31,757 - INFO - 127.0.0.1 - - [25/Jul/2025 14:11:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:11:39,017 - ERROR - Could not load mean_tenure from JSON: [Errno 2] No such file or directory: 'plugins/myml/mean_tenure.json'
+2025-07-25 14:11:39,017 - INFO - Your Data Processing is intialized...
+2025-07-25 14:11:39,180 - ERROR - Error while preprocessing data 'ImmutableMultiDict' objects are immutable
+2025-07-25 14:11:39,231 - INFO - 127.0.0.1 - - [25/Jul/2025 14:11:39] "POST / HTTP/1.1" 200 -
+2025-07-25 14:11:39,360 - INFO - 127.0.0.1 - - [25/Jul/2025 14:11:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:31:30,536 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-07-25 14:31:30,538 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:31:30,546 - INFO -  * Restarting with stat
+2025-07-25 14:31:39,552 - WARNING -  * Debugger is active!
+2025-07-25 14:31:39,573 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 14:31:45,959 - INFO - 127.0.0.1 - - [25/Jul/2025 14:31:45] "GET / HTTP/1.1" 200 -
+2025-07-25 14:31:46,612 - INFO - 127.0.0.1 - - [25/Jul/2025 14:31:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:31:53,869 - ERROR - Could not load mean_tenure from JSON: [Errno 2] No such file or directory: 'plugins/myml/mean_tenure.json'
+2025-07-25 14:31:53,870 - INFO - Your Data Processing is intialized...
+2025-07-25 14:31:53,914 - ERROR - Error while preprocessing data Could not convert string '5' to numeric
+2025-07-25 14:31:53,922 - INFO - 127.0.0.1 - - [25/Jul/2025 14:31:53] "POST / HTTP/1.1" 200 -
+2025-07-25 14:31:54,056 - INFO - 127.0.0.1 - - [25/Jul/2025 14:31:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:32:32,504 - INFO -  * Detected change in 'C:\\Users\\eaditb\\Documents\\EB_MLOPS_MID_PROJECT_1\\docker_ml_project_1\\plugins\\myml\\application_w_prep.py', reloading
+2025-07-25 14:32:33,193 - INFO -  * Restarting with stat
+2025-07-25 14:32:58,707 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-07-25 14:32:58,708 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:32:58,716 - INFO -  * Restarting with stat
+2025-07-25 14:33:09,693 - WARNING -  * Debugger is active!
+2025-07-25 14:33:09,703 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 14:33:10,152 - INFO - 192.168.1.111 - - [25/Jul/2025 14:33:10] "GET / HTTP/1.1" 200 -
+2025-07-25 14:33:10,487 - INFO - 192.168.1.111 - - [25/Jul/2025 14:33:10] "GET /static/style.css HTTP/1.1" 200 -
+2025-07-25 14:33:16,678 - ERROR - Could not load mean_tenure from JSON: [Errno 2] No such file or directory: 'plugins/myml/mean_tenure.json'
+2025-07-25 14:33:16,679 - INFO - Your Data Processing is intialized...
+2025-07-25 14:33:16,708 - ERROR - Error while preprocessing data Could not convert string '5' to numeric
+2025-07-25 14:33:16,745 - INFO - 192.168.1.111 - - [25/Jul/2025 14:33:16] "POST / HTTP/1.1" 200 -
+2025-07-25 14:33:16,824 - INFO - 192.168.1.111 - - [25/Jul/2025 14:33:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:34:04,370 - INFO -  * Detected change in 'C:\\Users\\eaditb\\Documents\\EB_MLOPS_MID_PROJECT_1\\docker_ml_project_1\\plugins\\myml\\application_w_prep.py', reloading
+2025-07-25 14:34:05,486 - INFO -  * Restarting with stat
+2025-07-25 14:34:24,479 - WARNING -  * Debugger is active!
+2025-07-25 14:34:24,519 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 14:34:56,638 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-07-25 14:34:56,653 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:34:56,660 - INFO -  * Restarting with stat
+2025-07-25 14:35:10,242 - WARNING -  * Debugger is active!
+2025-07-25 14:35:10,258 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 14:35:10,740 - INFO - 192.168.1.111 - - [25/Jul/2025 14:35:10] "GET / HTTP/1.1" 200 -
+2025-07-25 14:35:11,174 - INFO - 192.168.1.111 - - [25/Jul/2025 14:35:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:35:16,312 - ERROR - Could not load mean_tenure from JSON: [Errno 2] No such file or directory: 'plugins/myml/mean_tenure.json'
+2025-07-25 14:35:16,313 - INFO - Your Data Processing is intialized...
+2025-07-25 14:35:16,350 - ERROR - Error while preprocessing data Could not convert string '4' to numeric
+2025-07-25 14:35:16,360 - INFO - 192.168.1.111 - - [25/Jul/2025 14:35:16] "POST / HTTP/1.1" 200 -
+2025-07-25 14:35:16,463 - INFO - 192.168.1.111 - - [25/Jul/2025 14:35:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:35:44,625 - INFO -  * Detected change in 'C:\\Users\\eaditb\\Documents\\EB_MLOPS_MID_PROJECT_1\\docker_ml_project_1\\plugins\\myml\\application_w_prep.py', reloading
+2025-07-25 14:35:45,208 - INFO -  * Restarting with stat
+2025-07-25 14:35:53,667 - WARNING -  * Debugger is active!
+2025-07-25 14:35:53,681 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 14:36:59,976 - INFO -  * Detected change in 'C:\\Users\\eaditb\\Documents\\EB_MLOPS_MID_PROJECT_1\\docker_ml_project_1\\plugins\\myml\\application_w_prep.py', reloading
+2025-07-25 14:37:02,864 - INFO -  * Restarting with stat
+2025-07-25 14:37:32,575 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-07-25 14:37:32,578 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:37:32,586 - INFO -  * Restarting with stat
+2025-07-25 14:37:41,621 - WARNING -  * Debugger is active!
+2025-07-25 14:37:41,782 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 14:37:42,695 - INFO - 127.0.0.1 - - [25/Jul/2025 14:37:42] "GET / HTTP/1.1" 200 -
+2025-07-25 14:37:43,136 - INFO - 127.0.0.1 - - [25/Jul/2025 14:37:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:37:49,833 - ERROR - Could not load mean_tenure from JSON: [Errno 2] No such file or directory: 'plugins/myml/mean_tenure.json'
+2025-07-25 14:37:49,833 - INFO - Your Data Processing is intialized...
+2025-07-25 14:37:50,099 - ERROR - Error while preprocessing data Could not convert string '5' to numeric
+2025-07-25 14:37:50,112 - INFO - 127.0.0.1 - - [25/Jul/2025 14:37:50] "POST / HTTP/1.1" 200 -
+2025-07-25 14:37:50,334 - INFO - 127.0.0.1 - - [25/Jul/2025 14:37:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:40:28,311 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-07-25 14:40:28,313 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:40:28,339 - INFO -  * Restarting with stat
+2025-07-25 14:40:44,599 - WARNING -  * Debugger is active!
+2025-07-25 14:40:44,618 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 14:40:45,455 - INFO - 127.0.0.1 - - [25/Jul/2025 14:40:45] "GET / HTTP/1.1" 200 -
+2025-07-25 14:40:45,900 - INFO - 127.0.0.1 - - [25/Jul/2025 14:40:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:40:51,707 - ERROR - Could not load mean_tenure from JSON: [Errno 2] No such file or directory: 'plugins/myml/mean_tenure.json'
+2025-07-25 14:40:51,708 - INFO - Your Data Processing is intialized...
+2025-07-25 14:40:51,738 - ERROR - Error while preprocessing data Could not convert string '5' to numeric
+2025-07-25 14:40:51,744 - INFO - 127.0.0.1 - - [25/Jul/2025 14:40:51] "POST / HTTP/1.1" 200 -
+2025-07-25 14:40:51,793 - INFO - 127.0.0.1 - - [25/Jul/2025 14:40:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:42:43,808 - INFO -  * Detected change in 'C:\\Users\\eaditb\\Documents\\EB_MLOPS_MID_PROJECT_1\\docker_ml_project_1\\plugins\\myml\\data_processing.py', reloading
+2025-07-25 14:42:46,438 - INFO -  * Restarting with stat
+2025-07-25 14:43:27,939 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-07-25 14:43:27,978 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:43:28,041 - INFO -  * Restarting with stat
+2025-07-25 14:43:39,618 - WARNING -  * Debugger is active!
+2025-07-25 14:43:39,630 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 14:43:40,038 - INFO - 127.0.0.1 - - [25/Jul/2025 14:43:40] "GET / HTTP/1.1" 200 -
+2025-07-25 14:43:40,439 - INFO - 127.0.0.1 - - [25/Jul/2025 14:43:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:43:44,897 - ERROR - Could not load mean_tenure from JSON: [Errno 2] No such file or directory: 'plugins/myml/mean_tenure.json'
+2025-07-25 14:43:44,898 - INFO - Your Data Processing is intialized...
+2025-07-25 14:43:45,132 - ERROR - Error while preprocessing data Could not convert string '2' to numeric
+2025-07-25 14:43:45,134 - INFO - 127.0.0.1 - - [25/Jul/2025 14:43:45] "POST / HTTP/1.1" 200 -
+2025-07-25 14:43:45,303 - INFO - 127.0.0.1 - - [25/Jul/2025 14:43:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:45:17,100 - INFO -  * Detected change in 'C:\\Users\\eaditb\\Documents\\EB_MLOPS_MID_PROJECT_1\\docker_ml_project_1\\plugins\\myml\\data_processing.py', reloading
+2025-07-25 14:46:08,928 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-07-25 14:46:08,930 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:46:08,937 - INFO -  * Restarting with stat
+2025-07-25 14:46:20,307 - WARNING -  * Debugger is active!
+2025-07-25 14:46:20,323 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 14:46:20,836 - INFO - 127.0.0.1 - - [25/Jul/2025 14:46:20] "GET / HTTP/1.1" 200 -
+2025-07-25 14:46:21,228 - INFO - 127.0.0.1 - - [25/Jul/2025 14:46:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:46:24,472 - ERROR - Could not load mean_tenure from JSON: [Errno 2] No such file or directory: 'mean_tenure.json'
+2025-07-25 14:46:24,473 - INFO - Your Data Processing is intialized...
+2025-07-25 14:46:24,503 - ERROR - Error while preprocessing data Could not convert string '5' to numeric
+2025-07-25 14:46:24,505 - INFO - 127.0.0.1 - - [25/Jul/2025 14:46:24] "POST / HTTP/1.1" 200 -
+2025-07-25 14:46:24,558 - INFO - 127.0.0.1 - - [25/Jul/2025 14:46:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:51:20,022 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-07-25 14:51:20,024 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:51:20,031 - INFO -  * Restarting with stat
+2025-07-25 14:51:31,766 - WARNING -  * Debugger is active!
+2025-07-25 14:51:31,779 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 14:51:37,346 - INFO - 127.0.0.1 - - [25/Jul/2025 14:51:37] "GET / HTTP/1.1" 200 -
+2025-07-25 14:51:37,854 - INFO - 127.0.0.1 - - [25/Jul/2025 14:51:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:51:44,111 - INFO - mean_tenure loaded from JSON file.
+2025-07-25 14:51:44,112 - INFO - Your Data Processing is intialized...
+2025-07-25 14:51:44,155 - INFO - Data Preprocessing done...
+2025-07-25 14:51:44,188 - INFO - 127.0.0.1 - - [25/Jul/2025 14:51:44] "POST / HTTP/1.1" 200 -
+2025-07-25 14:51:44,242 - INFO - 127.0.0.1 - - [25/Jul/2025 14:51:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:52:04,741 - INFO - mean_tenure loaded from JSON file.
+2025-07-25 14:52:04,745 - INFO - Your Data Processing is intialized...
+2025-07-25 14:52:04,766 - INFO - Data Preprocessing done...
+2025-07-25 14:52:04,881 - INFO - 127.0.0.1 - - [25/Jul/2025 14:52:04] "POST / HTTP/1.1" 200 -
+2025-07-25 14:52:04,953 - INFO - 127.0.0.1 - - [25/Jul/2025 14:52:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 14:57:52,843 - INFO -  * Detected change in 'C:\\Users\\eaditb\\Documents\\EB_MLOPS_MID_PROJECT_1\\docker_ml_project_1\\plugins\\myml\\application_w_prep.py', reloading
+2025-07-25 14:57:56,372 - INFO -  * Restarting with stat
+2025-07-25 14:59:03,932 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.111:5000
+2025-07-25 14:59:03,933 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-25 14:59:03,940 - INFO -  * Restarting with stat
+2025-07-25 14:59:18,595 - WARNING -  * Debugger is active!
+2025-07-25 14:59:18,610 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 14:59:47,559 - INFO -  * Detected change in 'C:\\Users\\eaditb\\Documents\\EB_MLOPS_MID_PROJECT_1\\docker_ml_project_1\\plugins\\myml\\application_w_prep.py', reloading
+2025-07-25 14:59:48,414 - INFO -  * Restarting with stat
+2025-07-25 15:00:04,522 - WARNING -  * Debugger is active!
+2025-07-25 15:00:04,541 - INFO -  * Debugger PIN: 810-442-478
+2025-07-25 15:00:05,548 - INFO - 127.0.0.1 - - [25/Jul/2025 15:00:05] "GET / HTTP/1.1" 200 -
+2025-07-25 15:00:06,077 - INFO - 127.0.0.1 - - [25/Jul/2025 15:00:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 15:00:13,872 - INFO - mean_tenure loaded from JSON file.
+2025-07-25 15:00:13,873 - INFO - Your Data Processing is intialized...
+2025-07-25 15:00:13,935 - INFO - Data Preprocessing done...
+2025-07-25 15:00:14,065 - INFO - 127.0.0.1 - - [25/Jul/2025 15:00:14] "POST / HTTP/1.1" 200 -
+2025-07-25 15:00:14,116 - INFO - 127.0.0.1 - - [25/Jul/2025 15:00:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 15:00:19,028 - INFO - mean_tenure loaded from JSON file.
+2025-07-25 15:00:19,029 - INFO - Your Data Processing is intialized...
+2025-07-25 15:00:19,046 - INFO - Data Preprocessing done...
+2025-07-25 15:00:19,131 - INFO - 127.0.0.1 - - [25/Jul/2025 15:00:19] "POST / HTTP/1.1" 200 -
+2025-07-25 15:00:19,559 - INFO - 127.0.0.1 - - [25/Jul/2025 15:00:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 15:00:27,486 - INFO - mean_tenure loaded from JSON file.
+2025-07-25 15:00:27,486 - INFO - Your Data Processing is intialized...
+2025-07-25 15:00:27,500 - INFO - Data Preprocessing done...
+2025-07-25 15:00:27,556 - INFO - 127.0.0.1 - - [25/Jul/2025 15:00:27] "POST / HTTP/1.1" 200 -
+2025-07-25 15:00:27,593 - INFO - 127.0.0.1 - - [25/Jul/2025 15:00:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-07-25 15:00:38,917 - INFO - mean_tenure loaded from JSON file.
+2025-07-25 15:00:38,918 - INFO - Your Data Processing is intialized...
+2025-07-25 15:00:38,938 - INFO - Data Preprocessing done...
+2025-07-25 15:00:39,076 - INFO - 127.0.0.1 - - [25/Jul/2025 15:00:39] "POST / HTTP/1.1" 200 -
+2025-07-25 15:00:39,124 - INFO - 127.0.0.1 - - [25/Jul/2025 15:00:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
